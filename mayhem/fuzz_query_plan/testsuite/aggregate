@@ -1,0 +1,1 @@
+MATCH (n) RETURN labels(n), avg(n.v), min(n.v), max(n.v), sum(n.v), percentileDisc(n.v, 0.5)

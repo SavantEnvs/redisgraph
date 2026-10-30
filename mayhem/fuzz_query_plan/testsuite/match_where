@@ -1,0 +1,1 @@
+MATCH (n:Person)-[:KNOWS]->(m) WHERE n.age > 3 RETURN n.name, count(m) ORDER BY n.name LIMIT 5

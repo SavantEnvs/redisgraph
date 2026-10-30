@@ -1,0 +1,1 @@
+MATCH p = shortestPath((a:A)-[*]->(b:B)) RETURN length(p), nodes(p)

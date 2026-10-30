@@ -1,0 +1,1 @@
+UNWIND range(1,10) AS i WITH i WHERE i % 2 = 0 RETURN collect(i)

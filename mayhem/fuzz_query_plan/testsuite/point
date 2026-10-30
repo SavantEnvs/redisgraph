@@ -1,0 +1,1 @@
+RETURN point({latitude: 1.0, longitude: 2.0}), distance(point({latitude:1,longitude:2}), point({latitude:3,longitude:4}))

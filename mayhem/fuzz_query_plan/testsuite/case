@@ -1,0 +1,1 @@
+RETURN CASE WHEN 1 > 0 THEN "a" ELSE "b" END, toUpper("abc"), substring("hello", 1, 2), size([1,2,3])

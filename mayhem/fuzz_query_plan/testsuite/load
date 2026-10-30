@@ -1,0 +1,1 @@
+LOAD CSV FROM "file:///x.csv" AS row CREATE (:C {v: row[0]})

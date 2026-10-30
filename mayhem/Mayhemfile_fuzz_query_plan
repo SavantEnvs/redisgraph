@@ -1,0 +1,10 @@
+project: savantenvs/redisgraph
+target: fuzz_query_plan
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_query_plan/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_query_plan
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_query_plan/fuzz_query_plan.dict
+    timeout: 60

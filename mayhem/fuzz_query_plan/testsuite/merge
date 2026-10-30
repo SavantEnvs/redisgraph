@@ -1,0 +1,1 @@
+MERGE (a:P {name:"x"}) ON CREATE SET a.c = 1 ON MATCH SET a.m = 2 RETURN a

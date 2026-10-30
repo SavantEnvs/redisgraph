@@ -1,0 +1,1 @@
+MATCH (a)-[r:R]-(b) WHERE a.v IN [1,2,3] AND NOT b.name STARTS WITH "x" RETURN DISTINCT a
